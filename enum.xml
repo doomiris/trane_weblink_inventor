@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Item type="DrawingSheetSizeEnum">
+		<Member>kDefaultDrawingSheetSize</Member>
+		<Description>Specifies the default setting. The more strongly typed value is the one returned in a query</Description>
+		<Value>9985</Value>
+	</Item>	<Item type="DrawingSheetSizeEnum">
+		<Member>kCustomDrawingSheetSize</Member>
+		<Description>Custom size. May not fit one of the standard sizes.</Description>
+		<Value>9986</Value>
+	</Item>	<Item type="DrawingSheetSizeEnum">
+		<Member>kADrawingSheetSize</Member>
+		<Description>A size (typically for inch units).</Description>
+		<Value>9987</Value>
+	</Item>	<Item type="DrawingSheetSizeEnum">
+		<Member>kBDrawingSheetSize</Member>
+		<Description>B size (typically for inch units).</Description>
+		<Value>9988</Value>
+	</Item>	<Item type="DrawingSheetSizeEnum">
+		<Member>kCDrawingSheetSize</Member>
+		<Description>C size (typically for inch units).</Description>
+		<Value>9989</Value>
+	</Item>	<Item type="DrawingSheetSizeEnum">
+		<Member>kDDrawingSheetSize</Member>
+		<Description>D size (typically for inch units).</Description>
+		<Value>9990</Value>
+	</Item>	<Item type="DrawingSheetSizeEnum">
+		<Member>kEDrawingSheetSize</Member>
+		<Description>E size (typically for inch units).</Description>
+		<Value>9991</Value>
+	</Item>	<Item type="DrawingSheetSizeEnum">
+		<Member>kFDrawingSheetSize</Member>
+		<Description>F size (typically for inch units).</Description>
+		<Value>9992</Value>
+	</Item>	<Item type="DrawingSheetSizeEnum">
+		<Member>kA0DrawingSheetSize</Member>
+		<Description>A0 size (typically for metric units).</Description>
+		<Value>9993</Value>
+	</Item>	<Item type="DrawingSheetSizeEnum">
+		<Member>kA1DrawingSheetSize</Member>
+		<Description>A1 size (typically for metric units).</Description>
+		<Value>9994</Value>
+	</Item>	<Item type="DrawingSheetSizeEnum">
+		<Member>kA2DrawingSheetSize</Member>
+		<Description>A2 size (typically for metric units).</Description>
+		<Value>9995</Value>
+	</Item>	<Item type="DrawingSheetSizeEnum">
+		<Member>kA3DrawingSheetSize</Member>
+		<Description>A3 size (typically for metric units).</Description>
+		<Value>9996</Value>
+	</Item>	<Item type="DrawingSheetSizeEnum">
+		<Member>kA4DrawingSheetSize</Member>
+		<Description>A4 size (typically for metric units).</Description>
+		<Value>9997</Value>
+	</Item>
+	<Item type="PageOrientationTypeEnum">
+		<Member>kDefaultPageOrientation</Member>
+		<Description>Specifies the default setting. The more strongly typed value is returned in a query.</Description>
+		<Value>10241</Value>
+	</Item>	<Item type="PageOrientationTypeEnum">
+		<Member>kLandscapePageOrientation</Member>
+		<Description>Page is oriented as a Landscape.</Description>
+		<Value>10242</Value>
+	</Item>	<Item type="PageOrientationTypeEnum">
+		<Member>kPortraitPageOrientation</Member>
+		<Description>Page is oriented as a Portrait.</Description>
+		<Value>10243</Value>
+	</Item>
+</Enum>

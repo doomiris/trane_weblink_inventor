@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Domisoft-PRO-tool</title>
+<link href="mstl.css" rel="stylesheet" type="text/css" />
+<!--<script type="text/javascript" src="js/pfcUtils.js"></script>
+<script type="text/javascript" src="js/weblinkpub.js"></script>
+<script type="text/javascript" src="js/domipub.js"></script>
+<script type="text/javascript" src="../SpryAssets/xpath.js"></script>
+<script type="text/javascript" src="../SpryAssets/SpryData.js"></script>-->
+<script src="../SpryAssets/SpryTabbedPanels.js" type="text/javascript"></script>
+
+<!--<script src="tool3.js" type="text/javascript"></script>-->
+<script type="text/javascript">
+
+//alert(oApp.length);
+</script>
+
+<link href="../SpryAssets/SpryTabbedPanels.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+.ct {
+	top: 0px;
+	margin: 0px;
+}
+.ch {
+	display:none;
+}
+</style>
+</head>
+
+<body>
+
+<table width="700" border="0" align="center" cellpadding="5" cellspacing="0">
+	<tr>
+		<td>
+<input type="button" name="aa" id="aa" value="添加Note" onclick="AddNote()" />
+<input type="button" name="aa" id="aa" value="选取表格,显示坐标" onclick="test2()"/>
+<input type="button" name="aa" id="aa" value="选取表格,显示ID" onclick="GetSelTablID()"/>
+<input type="button" name="aa" id="aa" value="选取表格,显示2,2内容" onclick="GetCellText()"/>
+<input type="button" name="aa" id="aa" value="显示cell所在行列" onclick="GetSelCell()" />
+<input type="checkbox" name="chkTesting" id="chkTesting" onclick="return TestToogle();"/><label for="chkTesting">正在测试</label></td>
+	</tr>
+</table>
+<div id="TabbedPanels1" class="TabbedPanels">
+	<ul class="TabbedPanelsTabGroup ch">
+		<li class="TabbedPanelsTab" tabindex="0">标签 1</li>
+		<li class="TabbedPanelsTab" tabindex="0">标签 2</li>
+		<li class="TabbedPanelsTab" tabindex="0">标签 3</li>
+		<li class="TabbedPanelsTab" tabindex="0">标签 4</li>
+	</ul>
+	<div class="TabbedPanelsContentGroup">
+		<div class="TabbedPanelsContent">内容 1</div>
+		<div class="TabbedPanelsContent">内容 2</div>
+		<div class="TabbedPanelsContent">内容 3</div>
+		<div class="TabbedPanelsContent">内容 4</div>
+	</div>
+	<ul class="TabbedPanelsTabGroup">
+		<li class="TabbedPanelsTab ct" tabindex="0">标签 1</li>
+		<li class="TabbedPanelsTab ct" tabindex="0">标签 2</li>
+		<li class="TabbedPanelsTab ct" tabindex="0">标签 3</li>
+		<li class="TabbedPanelsTab ct" tabindex="0">标签 4</li>
+	</ul>
+</div>
+<script type="text/javascript">
+var TabbedPanels1 = new Spry.Widget.TabbedPanels("TabbedPanels1");
+</script>
+</body>
+</html>
